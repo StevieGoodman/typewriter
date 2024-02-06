@@ -6,10 +6,6 @@ It is critical that the name remains unchanged.
 
 local library = {}
 
---[[
-Add the content of the library here.
-You can define submodules by requiring them here and adding them to the library table.
-Alternatively, for small libraries you can just define the module contents directly in this file.
-]]--
+library.String = require(script.String)
 
 return library

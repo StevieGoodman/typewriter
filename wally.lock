@@ -13,6 +13,6 @@ version = "1.2.1"
 dependencies = []
 
 [[package]]
-name = "steviegoodman/library-nmae"
+name = "steviegoodman/typewriter"
 version = "1.0.0"
 dependencies = [["TableUtil", "sleitnick/table-util@1.2.1"], ["TestEz", "roblox/testez@0.4.1"]]

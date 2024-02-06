@@ -1,9 +1,20 @@
 [package]
-name = "steviegoodman/library-name"
-description = "No description provided."
+name = "steviegoodman/typewriter"
+description = "Improves the ergonomics of Lua types using classes!"
 version = "1.0.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+exclude = ["**"]
+include = [
+    "src",
+    "src/init.lua",
+    "src/String.lua",
+    "default.project.json", 
+    "wally.toml"
+]
+
+[dependencies]
+TableUtil = "sleitnick/table-util@1.2.0"
 
 [dev-dependencies]
 TestEz = "roblox/testez@0.4.1"
